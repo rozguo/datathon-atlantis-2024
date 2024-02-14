@@ -1,0 +1,9 @@
+#about-container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 15vh;
+
+}
