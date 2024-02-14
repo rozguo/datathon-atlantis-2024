@@ -24,14 +24,16 @@ const Apply = () => {
             Apply Now:
             <div className="apply-btns-container">
               <a
+                style={{ borderRadius: " 50px" }}
                 className="btn  btn-secondary app-btn d-flex justify-content-center align-items-center"
-                href=""
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdfAytD0pFRwV70e7GaWSk9QTazSfUVzRcYJGJroZbhrIvk6g/viewform?usp=sf_link"
               >
                 Participant
               </a>
               <a
+                style={{ borderRadius: " 50px" }}
                 className="btn btn-secondary app-btn d-flex justify-content-center align-items-center"
-                href=""
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdQz5uuZUJArp5pg0Zyz1PYuehtaWsZDvbQc_9FXfvLy1cYxQ/viewform?usp=sf_link"
               >
                 Mentor
               </a>
