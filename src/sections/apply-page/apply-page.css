@@ -1,27 +1,35 @@
 .apply-container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
-    height: 90vh;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .application-info {
-  z-index: 3;
-}
-
-.apply-text{
   position: absolute;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.apply-text{
   color: white;
   text-align: center;
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
 .apply-btns-container{
-  width: 100%;
+  width: 80%;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -29,34 +37,24 @@
 }
 
 .app-btn{
-    width: 150px;
-    height: 50px;
-    color: white;
-    font-size: 1.2rem;
-    background-color: #4F4E65;
+  width: 170px;
+  height: 50px;
+  color: white;
+  font-size: 1.2rem;
+  background-color: #49476d !important;
+  font-family: "Poppins" !important;
+  font-weight: 600;
+  box-shadow: 2px 2px 2px rgb(46, 46, 46);
+
 }
 
-#learn-more-btn{
-  color: black;
-  display: flex;
-  justify-content: center;
-}
-
-#learn-more-btn p{
-  padding-right: 15px;
-  margin-bottom: 15px;
-}
-
-#learn-more-btn img{
-  margin-top: 3px;
-}
 .shape {
 	width: 80vw;
-    max-width: 800px;
-	height: 60vh;
-    z-index: 0;
+  max-width: 800px;
+	height: 70vh;
+  z-index: 0;
 	background: #346779;
-    opacity: .7;
+  opacity: .7;
 	-moz-border-radius: 0px 0px 0px 0px;
 	-webkit-border-radius: 0px 0px 0px 0px;
 	border-radius: 20px 20px  20px 20px;
@@ -64,18 +62,24 @@
 
 @media (max-width: 767px) {
     .apply-btns-container{
-        height: 100px;
-		flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-       
+      height: 100px;
+		  flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
     }
     .app-btn{
     	width: 150px;
     	border-radius: 15px;
-        height: 40;
-        border-radius: 25px;
-        color: white;
-        font-size: 1rem;
+      height: 40;
+      border-radius: 25px;
+      color: white;
+      font-size: 1rem;
+    }
+    .shape{
+      height: 80vh;
+    }
+
+    #mentor-btn{
+      padding-top: 20px;
     }
 }

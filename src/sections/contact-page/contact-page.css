@@ -1,0 +1,94 @@
+.contact-container{
+    height: 80vh;
+}
+.email-section h1{
+    font-size: 45px;
+    font-weight: 400; 
+}
+.email-section{
+    margin-top: 60px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+
+.email-section h1{
+    font-size: 3rem;
+    padding-bottom: 1rem !important;
+}
+
+
+.email-button {
+  width: 300px;
+  height: 50px;
+  justify-content: center;
+  background-color: #f77c43 !important;
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  border-radius: 50px !important;
+}
+
+.email-section p, .email-section a{
+    padding-bottom: 30px;
+}
+
+
+
+#moving-orange {
+  animation: slide-in 1s ease forwards, wave 4s infinite linear;
+  opacity: 0;
+  padding-top: 7vh;
+}
+
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100px); /* Start position for the animation */
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0); /* End position for the animation */
+    opacity: 1;
+  }
+}
+
+@keyframes wave {
+  0% {
+    transform: translateY(10);
+  }
+  50% {
+    transform: translateY(-30px); /* Middle position for the wave animation */
+  }
+  100% {
+    transform: translateY(0); /* End position for the wave animation */
+  }
+}
+
+
+
+
+@media  screen and (min-width: 768px) {
+    .contact-section h1{
+        padding-bottom: 75px !important;
+    }
+
+    #icon{
+        height: 125px;
+        width: 125px;
+    }
+
+    .email-section{
+        margin-top: 90px;
+        padding-bottom: 130px;
+    }
+
+    .email-section h1{
+        font-size: 4rem;
+        padding-bottom: 1rem !important;
+    }
+}

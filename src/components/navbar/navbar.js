@@ -3,7 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import "./navbar.css";
 
 const NavBar = () => {
-  const logo = require("../logo.png");
+  const logo = require("../atlantis_logo.png");
   return (
     <Navbar expand="md" style={{ backgroundColor: "#5893A6" }}>
       <Navbar.Brand href="/" style={{ paddingLeft: "30px" }}>
