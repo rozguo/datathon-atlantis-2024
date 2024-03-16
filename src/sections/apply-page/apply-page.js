@@ -13,7 +13,7 @@ const Apply = () => {
           </p>
           <br />
           <p style={{ fontSize: "1.2rem" }}>
-            April 15 - 16, 2023
+            April 13 - 14, 2024
             <br />
           </p>
           <br />
