@@ -18,7 +18,7 @@ const Apply = () => {
           </p>
           <br />
           <p style={{ fontSize: "1.2rem" }}>
-            Applications due on March 22, 2024 at 11:59 PM
+            Applications due on April 1, 2024 at 11:59 PM
             <br />
             <br />
             Apply Now:
