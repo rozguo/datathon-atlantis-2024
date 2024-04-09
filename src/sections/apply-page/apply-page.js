@@ -18,7 +18,7 @@ const Apply = () => {
           </p>
           <br />
           <p style={{ fontSize: "1.2rem" }}>
-            Applications are now closed.
+            Applications are now closed!
             <br />
             <br />
           </p>
