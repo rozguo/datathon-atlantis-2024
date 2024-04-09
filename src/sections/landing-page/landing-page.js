@@ -4,6 +4,7 @@ import Apply from "../apply-page/apply-page";
 import About from "../about-page/about-page";
 import Team from "../team-page/team";
 import Contact from "../contact-page/contact-page";
+
 const Landing = () => {
   const logo = require("../black_logo.png");
   return (
@@ -20,6 +21,9 @@ const Landing = () => {
       <Apply />
       <Contact />
       <Team />
+      {/* uncomment this when sponsor page is ready + import sponsor component at top
+      <Sponsor />
+      */}
     </>
   );
 };
