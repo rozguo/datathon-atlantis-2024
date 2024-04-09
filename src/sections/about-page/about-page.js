@@ -14,7 +14,7 @@ const About = () => {
         </p>
       </div>
 
-      <h2>Check Out Last Year's Datathon</h2>
+      <h2>Check Out This Year's Datathon</h2>
     </div>
   );
 };
